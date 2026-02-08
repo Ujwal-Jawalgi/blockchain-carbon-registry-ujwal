@@ -2,7 +2,7 @@
 Blockchain-Based Registry & MRV System for Transparent Carbon Credits
 
 Live Demo: 👉 https://ujwal-bluecarbon-registry.lovable.app/
-GitHub Repository: 👉 
+GitHub Repository: 👉 https://github.com/Ujwal-Jawalgi/blockchain-carbon-registry-ujwal.git
 
 📘 Executive Summary:
 Blue Carbon Ledger is a decentralized MRV (Monitoring, Reporting, and Verification) platform designed to bring transparency, trust, and automation to blue carbon restoration projects. By leveraging blockchain smart contracts, AI-powered data validation, and real-time field inputs, the system ensures that every issued carbon credit corresponds to verified ecological impact.
