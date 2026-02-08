@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blue Carbon Registry Design System - Ocean-inspired dark theme */
+
+@layer base {
+  :root {
+    /* Ocean-inspired color palette */
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 33% 17%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 33% 17%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 200 100% 40%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 180 100% 50%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 158 64% 52%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 200 100% 40%;
+
+    --verified: 142 76% 36%;
+    --pending: 45 93% 47%;
+    --rejected: 0 84% 60%;
+
+    --ocean-gradient: linear-gradient(135deg, hsl(200 100% 40%), hsl(180 100% 50%));
+    --nature-gradient: linear-gradient(135deg, hsl(158 64% 52%), hsl(142 76% 36%));
+    --dark-gradient: linear-gradient(135deg, hsl(222 47% 11%), hsl(217 33% 17%));
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+}
+
+@layer components {
+  .gradient-ocean {
+    background: var(--ocean-gradient);
+  }
+  
+  .gradient-nature {
+    background: var(--nature-gradient);
+  }
+  
+  .gradient-dark {
+    background: var(--dark-gradient);
+  }
+  
+  .status-verified {
+    @apply text-green-400 bg-green-400/10;
+  }
+  
+  .status-pending {
+    @apply text-yellow-400 bg-yellow-400/10;
+  }
+  
+  .status-rejected {
+    @apply text-red-400 bg-red-400/10;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
