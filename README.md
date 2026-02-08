@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+🌊 Blue Carbon Ledger
+Blockchain-Based Registry & MRV System for Transparent Carbon Credits
 
-## Project info
+Live Demo: 👉 https://ujwal-bluecarbon-registry.lovable.app/
+GitHub Repository: 👉 
 
-**URL**: https://lovable.dev/projects/c47000a0-7939-4805-8857-c3bccf6570cf
+📘 Executive Summary:
+Blue Carbon Ledger is a decentralized MRV (Monitoring, Reporting, and Verification) platform designed to bring transparency, trust, and automation to blue carbon restoration projects. By leveraging blockchain smart contracts, AI-powered data validation, and real-time field inputs, the system ensures that every issued carbon credit corresponds to verified ecological impact.
 
-## How can I edit this code?
+🎯 Project Objectives:
+Create a tamper-proof blue carbon registry
+Automate carbon credit issuance using smart contracts
+Enable real-time monitoring through drones and satellite data
+Empower local communities and NGOs
+Support regulatory-grade climate reporting
 
-There are several ways of editing your application.
+🧠 System Architecture:
+Mobile Apps / Drones / Satellite APIs
+              ↓
+        AI Validation Layer
+              ↓
+     Off-Chain Storage (IPFS/Filecoin)
+              ↓
+ Blockchain Proof Anchoring (Polygon)
+              ↓
+ Smart Contract Credit Minting
+              ↓
+     Transparent MRV Dashboard
 
-**Use Lovable**
+🔐 Smart Contract Workflow:
+Project registration on blockchain
+Field data submission
+Multi-source validation & AI verification
+Hash anchoring for integrity
+Automated carbon credit minting
+Audit, tracking, and retirement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c47000a0-7939-4805-8857-c3bccf6570cf) and start prompting.
+🧩 Core Modules:
+Registry Layer
+Immutable project records
+Restoration tracking
+MRV Engine
+Real-time ecological data ingestion
+Fraud prevention
+Credit Engine
+Tokenized carbon credits
+Transparent issuance
+Governance Panel
+Verifier approvals
+Compliance oversight
 
-Changes made via Lovable will be committed automatically to this repo.
+🧱 Technology Stack:
+Frontend: React, TypeScript, Tailwind CSS, shadcn/ui
+Blockchain: Solidity, Polygon, OpenZeppelin, Hardhat
+Storage: IPFS, Filecoin
+AI & Automation: Python ML pipelines
+Web3: Ethers.js, MetaMask
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+🚀 Local Setup:
+git clone <your-repo-url>
+cd blue-carbon-ledger
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+🌍 Impact:
+Area	Outcome
+Environmental	Verified CO₂ sequestration
+Social	Community empowerment
+Economic	Trusted carbon markets
+Governance	Transparent climate compliance
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+⚖ Risk Handling:
+Multi-source data verification
+Off-chain scalable storage
+Immutable audit trails
+Low-cost blockchain infrastructure
 
-**Use GitHub Codespaces**
+🛣 Roadmap:
+Phase 1: Blue carbon MRV system
+Phase 2: Carbon credit marketplace
+Phase 3: Multi-ecosystem expansion
+Phase 4: Government climate registry
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🏆 Built For:
+Smart India Hackathon 2025
+Clean & Green Technology Theme
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c47000a0-7939-4805-8857-c3bccf6570cf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+👥 Team Groot:
+Developing decentralized climate infrastructure for transparent sustainability finance.
